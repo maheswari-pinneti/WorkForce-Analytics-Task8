@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -143,3 +144,18 @@ function Dashboard() {
 }
 
 export default Dashboard;
+=======
+import { useAuth } from "../context/AuthContext";
+
+export default function Dashboard() {
+  const { user } = useAuth();
+
+  return (
+    <div>
+      <h1>Dashboard</h1>
+
+      <h2>Welcome {user?.username}</h2>
+    </div>
+  );
+}
+>>>>>>> origin/feature/rupesh-auth-routing

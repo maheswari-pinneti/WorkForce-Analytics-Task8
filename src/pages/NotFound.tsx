@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
@@ -46,3 +47,12 @@ const NotFound = () => {
 };
 
 export default NotFound;
+=======
+export default function NotFound() {
+  return (
+    <div className="page">
+      <h1>404 Page Not Found</h1>
+    </div>
+  );
+}
+>>>>>>> origin/feature/rupesh-auth-routing
