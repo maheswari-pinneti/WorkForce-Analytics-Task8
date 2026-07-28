@@ -1,3 +1,10 @@
+import DashboardPage from "./features/dashboard/pages/DashboardPage";
+
+function App() {
+  return <DashboardPage />;
+}
+
+export default App;
 import AppRoutes from "./routes/AppRoutes";
 import EmployeeTable from './components/EmployeeTable';
 
